@@ -55,7 +55,7 @@ where $A_{t,k}$ is the averaged attention weight from the token at position $t$ 
 
 The original paper trains a linear classifier on per-layer/per-head lookback ratio vectors using Llama-2-7B. Below we implement the core algorithm for **GPT-2** (accessible without large-model downloads) and use a simple logistic-regression classifier trained on aggregate ratio features. To reproduce the paper's exact numbers, replace `MODEL_NAME` with `meta-llama/Llama-2-7b-chat-hf` and provide the paper's pre-trained classifier weights.
 
-Reference: [original paper](https://arxiv.org/abs/2407.07071); [Code](https://github.com/amazon-science/lookback-lens)
+Reference: [original paper](https://arxiv.org/abs/2407.07071); [Code](https://github.com/voidism/Lookback-Lens)
 
 ### Improved Hallucination Detection Baselines
 
